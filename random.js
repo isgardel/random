@@ -1,7 +1,8 @@
 //match.random() devuelve número aleatorio
+var numero = Math.random();
+var str = 'Mayor que 0.5';
 
 if (numero <= 0.5){
-  console.log('\n' + numer + ' Menor de 0.5 \n');
-}else{
-  console.log('\n' + numer + ' Mayor de 0.5 \n');
+  str = 'Menor que 0.5';
 }
+console.log('\n' + numero + str + '\n');
